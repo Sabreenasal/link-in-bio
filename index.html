@@ -6,6 +6,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #004643;
+    justify-content: center;
   }
   
   .banner-image {
@@ -27,10 +28,10 @@
   justify-content: center;
 }
 
-.social-icons a {
+.social-icons {
   color: #fffffe;
-  text-decoration: none;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .link {
@@ -44,6 +45,14 @@
   text-align: center;
   flex-grow: 1; 
 }
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
+
 * {
   border: thin red solid;
 }
