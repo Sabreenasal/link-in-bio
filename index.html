@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<>
   <style> 
 
   body {
@@ -7,11 +7,12 @@
     padding-bottom: 40px;
     background-color: #004643;
   }
-
+  
   .banner-image {
     width: 128px;
     height: 128px;
     object-fit: cover;
+    justify-content: center;
   }
   .thumbnail {
   width: 48px;
@@ -22,20 +23,29 @@
 
 .name {
   color: #fffffe;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons a {
   color: #fffffe;
   text-decoration: none;
+  justify-content: center;
 }
 
 .link {
   background-color: #f9bc60;
+  display: flex
 }
 
 .link a {
   color: #001e1d;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1; 
+}
+* {
+  border: thin red solid;
 }
 </style>
 
@@ -43,7 +53,7 @@
 
   </head>
 
-  <body>
+  <body> 
     <div class="banner">
       <img src="siberian.jpg" alt="Sabreena's Profile Pic"
       class= "banner-image">
@@ -56,8 +66,8 @@
     Github
   </a>
 
-</div>
-
+ </div>
+</body>
 <div class="link"> 
   <a href="https://www.linkedin.com/in/bree-salomon-22b586311/" target="_blank">
     Linkedin
