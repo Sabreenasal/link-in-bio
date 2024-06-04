@@ -1,91 +1,80 @@
 <!DOCTYPE html>
-<>
-  <style> 
+<html>
+<head>
+<style> 
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #d6b212dd;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+}
 
-  body {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #004643;
-    justify-content: center;
-  }
-  
-  .banner-image {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-    justify-content: center;
-  }
-  .thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
+.banner-image {
+  width: 128px;
+  height: 128px;
   object-fit: cover;
+  border-radius: 50%; 
 }
 
 .name {
   color: #fffffe;
-  display: flex;
-  justify-content: center;
-}
-
-.social-icons {
-  color: #fffffe;
-  display: flex;
-  justify-content: space-around;
+  margin-top: 20px; 
 }
 
 .link {
-  background-color: #f9bc60;
-  display: flex
+  background-color: #1d8e53;
+  margin-top: 40px; 
+  display: flex;
+  justify-content: space-around;
+  width: 200px; 
+  padding-top: 20px;
+
 }
 
 .link a {
   color: #001e1d;
   text-decoration: none;
   text-align: center;
-  flex-grow: 1; 
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 640px;
+.link a:hover {
+  text-decoration: underline; 
 }
 
-* {
-  border: thin red solid;
+.thumbnail { 
+  width: 48px;
+  height:48px;
+  border-radius: 50%;
+  align-items: center;
+  padding-bottom: 10px;
 }
 </style>
-
-  <head>
-
-  </head>
-
-  <body> 
-    <div class="banner">
-      <img src="siberian.jpg" alt="Sabreena's Profile Pic"
-      class= "banner-image">
-    </div>
-    <div class="name">
-    Sabreena
-    </div>
+</head>
+<body> 
+  <div class="banner">
+    <img src="siberian.jpg" alt="Sabreena's Profile Pic" class="banner-image">
+  </div>
+  <div class="name"> 
+    Sabreena     
+  </div>
+  <div class="link">
+    <img src="github logo.png" alt="github logo" class="thumbnail">
+    <a href="https://github.com/Sabreenasal" target="_blank">Github</a>
+  
+  </div>
 <div class="link">
-  <a href="https://github.com/Sabreenasal" target="_blank">
-    Github
-  </a>
-
- </div>
+  <img src="linkedin.png"alt="linkedin"class="thumbnail">
+  <a href="https://www.linkedin.com/in/bree-salomon-22b586311/" target="_blank">Linkedin</a>
+</div>
+<div class="link">
+  <img src="youtube logo.jpeg"alt="thumbnail" class="thumbnail">
+  <a href="https://www.youtube.com/channel/UCiyJRtsJUxsxZBjFfZv7c6Q" target="_blank">Youtube</a>
+</div>
 </body>
-<div class="link"> 
-  <a href="https://www.linkedin.com/in/bree-salomon-22b586311/" target="_blank">
-    Linkedin
-  </a>
-</div>
-<div class="link">
-  <a href="https://www.youtube.com/channel/UCiyJRtsJUxsxZBjFfZv7c6Q" target="_blank">
-    Youtube
-  </a>
-</div>
-  </body>
 </html>
